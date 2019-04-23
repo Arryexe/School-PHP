@@ -6,6 +6,7 @@
 	$r = 10;
 
 	// Volume Balok
+	echo "<div align='center'>";
 	echo "<h1>Praktikum 1</h1>";
 	$volume_balok = $panjang * $lebar * $tinggi;
 	echo "Panjang : " . $panjang;
@@ -23,15 +24,16 @@
 	echo "<br>";
 	// Volume Bola
 	echo "<h1>Praktikum 2</h1>";
-	$volume_bola = 3/4 * $phi * $r * $r * $r;
+	$volume_bola = 4/3 * $phi * $r * $r * $r;
 	echo "Phi : $phi";
 	echo "<br>";
 	echo "Jari Jari = $r";
 	echo "<br>";
-	echo "Rumus : 3/4 * Phi * r * r * r";
+	echo "Rumus : 4/3 * Phi * r * r * r";
 	echo "<br>";
 	echo "Hasil : $volume_bola";
 
+	// Perbandingan
 	echo "<br>";
 	echo "<br>";
 	echo "<h1>Praktikum 3</h1>";
@@ -40,4 +42,5 @@
 	} else {
 		echo "$volume_balok Kurang dari $volume_bola";
 	}
+	echo "</div>";
  ?>
